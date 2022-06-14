@@ -221,6 +221,10 @@ class TradingBot():
                 self.checkTrade()     
             
         
+
+    
+
+
     def run(self):
         self.start = True
         thread = threading.Thread(target=self.dataReceiver.runWS)
